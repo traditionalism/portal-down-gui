@@ -1,0 +1,12 @@
+build/bin
+node_modules
+frontend/dist
+frontend/node_modules
+
+# Wails generated bindings (regenerated on `wails dev` / `wails build`)
+# Uncomment if you want to commit them for editor autocomplete:
+# frontend/wailsjs
+
+# OS
+.DS_Store
+Thumbs.db
