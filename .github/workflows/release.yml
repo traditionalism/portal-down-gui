@@ -33,7 +33,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: wails build -platform windows/amd64 -clean -s
+        run: wails build -platform windows/amd64 -clean -webview2 embed
 
       - name: Package
         shell: pwsh
@@ -79,7 +79,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: wails build -platform linux/amd64 -clean -s
+        run: wails build -platform linux/amd64 -clean
 
       - name: Package
         run: |
